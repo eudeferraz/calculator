@@ -1,0 +1,113 @@
+html {
+  background: #000000;
+  background-image:
+    radial-gradient(50% 30% ellipse at center top, #000000 0%, rgba(0,0,0,0) 100%),
+    radial-gradient(60% 50% ellipse at center bottom, #000000 0%, #000000 100%);
+  background-attachment: fixed;
+}
+
+body {
+  font: 300 18px/1.6 "Source Sans Pro",sans-serif;
+  margin: 0;
+  padding: 5em 0 2em;
+  text-align: center;
+}
+
+.calculator {
+  font-size: 28px;
+  margin: 0 auto;
+  width: 10em;
+}
+
+.viewer {
+  color: #ffffff;
+  line-height: 3em;
+}
+.number-zero {
+  border: 0;
+  background: rgb(46, 43, 43);
+  color: #fcfcfc;
+  cursor: pointer;
+  float: left;
+  font: inherit;
+  margin: 0.25em;
+  width: 4.5em;
+  height: 2em;
+  border-radius: 15px;
+  text-align: left;
+  transition: background-color 0.2s;
+}
+
+.clear {
+  border: 0;
+  background: rgb(179, 178, 176);
+  color: #000000;
+  cursor: pointer;
+  float: left;
+  font: inherit;
+  margin: 0.25em;
+  width: 2em;
+  height: 2em;
+  transition: all 0.5s;
+  border-radius: 100%;
+}
+
+.number-zero hover{
+  opacity: 10;
+}
+
+.number {
+  border: 0;
+  background: rgb(46, 43, 43);
+  color: #fcfcfc;
+  cursor: pointer;
+  float: left;
+  font: inherit;
+  margin: 0.25em;
+  width: 2em;
+  height: 2em;
+  transition: all 0.5s;
+  border-radius: 100%;
+}
+
+.ops {
+  border: 0;
+  background: rgb(255, 146, 4);
+  color: #fcfcfc;
+  cursor: pointer;
+  float: left;
+  font: inherit;
+  margin: 0.25em;
+  width: 2em;
+  height: 2em;
+  transition: all 0.5s;
+  border-radius: 100%;
+}
+
+.equals {
+  border: 0;
+  background: rgb(255, 146, 4);
+  color: #fcfcfc;
+  cursor: pointer;
+  float: left;
+  font: inherit;
+  margin: 0.25em;
+  width: 2em;
+  height: 2em;
+  transition: all 0.5s;
+  border-radius: 100%;
+}
+
+.test {
+  border: 0;
+  background: rgb(179, 178, 176);
+  color: #000000;
+  cursor: pointer;
+  float: left;
+  font: inherit;
+  margin: 0.25em;
+  width: 2em;
+  height: 2em;
+  transition: all 0.5s;
+  border-radius: 100%;
+}

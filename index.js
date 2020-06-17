@@ -5,6 +5,18 @@ const calculator = {
   operator: null,
 };
 
+function showValue(number) {
+  const element = document.getElementById('viewer')
+  element.innerHTML = number
+}
+
+// function fixOperatorButton(elementId) {
+//   const element = document.getElementById(`${elementId}`)
+//   element.style.removeProperty('background-color')
+//   element.style.backgroundColor = '#fafaf5'
+//   element.style.color = 'orange'
+// }
+
 
 const keys = document.querySelector('.calculator')
 keys.addEventListener('click', (event) => {
@@ -14,12 +26,12 @@ keys.addEventListener('click', (event) => {
   }
 
   if (target.classList.contains('number')){
-    console.log('operator', target.innerHTML)
+    showValue(target.innerHTML)
     return
   }
 
   if (target.classList.contains('ops')){
-    console.log('operator', target.innerHTML)
+    console.log(target.id)
     return
   }
 

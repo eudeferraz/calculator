@@ -30,7 +30,7 @@ body {
   width: 10em;
 }
 
-.viewer {
+.firstElement, .secondElement{
   color: #ffffff;
   line-height: 3em;
 }
